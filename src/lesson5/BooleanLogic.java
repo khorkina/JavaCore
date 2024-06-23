@@ -2,20 +2,19 @@ package lesson5;
 
 public class BooleanLogic {
     public static void main(String[] args) {
-        //Сынок купи хлеб
-        boolean isboughtbread = true;
-        //Сынок купил молоко
-        boolean isboughtmilk = true;
 
-        //and - logic и -> если два true -> иначе false
-        boolean isboughtbreadadbmilk = isboughtbread && isboughtmilk;
+        boolean isBoughtBread = true;
+
+        boolean isBoughtMilk = true;
+
+        boolean isBoughtMilkAndBread = isBoughtBread && isBoughtMilk;;
 
 
-        if (isboughtbread && isboughtmilk) {
+        if (isBoughtBread) {
             System.out.println("Молодец сынок, купил хлеб и молоко");
-        } else if (isboughtmilk) {
+        } else if (isBoughtMilk) {
             System.out.println("Молодец сынок, хотя бы купил молоко");
-        } else if (isboughtbread) {
+        } else if (isBoughtBread) {
             System.out.println("Молодец сынок, хотя бы купил хлеб");
         }
         else {
@@ -23,15 +22,14 @@ public class BooleanLogic {
 
         }
 
-        //or
-        boolean isboughtmilkorbread = true || true;
-        //boolean isboughtmilkorbread = false || true;
 
-        //купио сладости или нет
-        //not - !
-        boolean isboughtcandy = false;
+        boolean isBoughtMilkOrBread = true || true;
+        //boolean isBoughtMilkOrBread = false || true;
 
-        if (!isboughtcandy) {
+
+        boolean isBoughtCandy = false;
+
+        if (!isBoughtCandy) {
             System.out.println("Мама хвалит сына");
 
         }
