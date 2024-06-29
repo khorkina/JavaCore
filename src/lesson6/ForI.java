@@ -7,6 +7,14 @@ public class ForI {
             System.out.println("i = " + i);
             System.out.println(numbers[i]);
 
+            int[] numbers2 = {3, 5, 18, 32};
+            for (int number : numbers2) {
+                if (number % 2 == 0) {
+                    System.out.println(number);
+                }
+
+            }
+
         }
 
     }
