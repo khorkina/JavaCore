@@ -11,6 +11,16 @@ public class ForI {
             for (int number : numbers2) {
                 if (number % 2 == 0) {
                     System.out.println(number);
+
+                }
+
+            }
+
+            System.out.println("____________");
+            for (int j = 0; j < numbers2.length; j++) {
+                if (j % 2 == 0) {
+                    System.out.println(numbers2[j]);
+
                 }
 
             }
