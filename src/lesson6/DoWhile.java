@@ -7,5 +7,7 @@ public class DoWhile {
             System.out.println(count);
             count++;
         } while (count < 100);
+
     }
+
 }
