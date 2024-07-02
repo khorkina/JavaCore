@@ -9,6 +9,9 @@ public class Continue {
                 continue;
             }
             System.out.println("Down");
+
         }
+
     }
+
 }
