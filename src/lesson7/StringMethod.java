@@ -9,5 +9,16 @@ public class StringMethod {
         String textLower = text.toLowerCase();
         System.out.println(textLower);
 
+        int length = text.length();
+        System.out.println(length);
+
+        boolean contains = text.contains("Hello");
+        System.out.println(contains);
+
+        String replacement = text.replaceAll("r", "a");
+        System.out.println(replacement);
+
+
+
     }
 }
