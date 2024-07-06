@@ -5,8 +5,9 @@ public class StringFormat {
         String name = "Marina";
         int age = 18;
         //String phrase = "I am " + name + "I am " + age + "  years";
-        String phrase = String.format("I am %s, I am %s years ", name, age);
-        System.out.println(phrase);
+        //String phrase = String.format("I am %s, I am %s years ", name, age);
+        //System.out.println(phrase);
+        System.out.printf("I am %s, I am %s years ", name, age);
 
     }
 
