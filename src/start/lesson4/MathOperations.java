@@ -35,7 +35,7 @@ public class MathOperations {
         int z = (2 + 2) * 2;
         System.out.println(z);
 
-        //индекс массы тела:
+
         double height = 1.82;
         int weight = 57;
         double index = weight / (height * height);
