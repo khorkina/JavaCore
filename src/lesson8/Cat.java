@@ -12,5 +12,7 @@ public class Cat {
                 ", weight=" + weight +
                 ", ownerName='" + ownerName + '\'' +
                 '}';
+
     }
+
 }
