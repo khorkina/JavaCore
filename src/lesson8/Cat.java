@@ -23,6 +23,24 @@ public class Cat {
 
     }
 
+    public String hunt(boolean isDay, boolean success) {
+        if (success){
+            if (isDay) {
+                return "Mouse";
+            }
+            return "Snake";
+        }
+        return "Nothing";
+    }
+
+    public void hunt(String timesOfDay) {
+        if (timesOfDay.equals("Morning")) {
+            System.out.println("Mouse");
+        } else {
+            System.out.println("Snake");
+        }
+    }
+
     @Override
     public String toString() {
         return "Cat{" +
