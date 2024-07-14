@@ -11,6 +11,10 @@ public class Cat {
         this.ownerName = owner;
     }
 
+    public void destroySofa(String sofaOwner) {
+        System.out.print(sofaOwner);
+    }
+
     @Override
     public String toString() {
         return "Cat{" +
