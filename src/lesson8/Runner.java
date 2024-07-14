@@ -10,7 +10,9 @@ public class Runner {
         cat.destroySofa("Marina`s");
 
         String animal = cat.hunt(false);
-        System.out.println(animal);
+        String resultHunt2 = cat.hunt(false, false);
+        cat.hunt("Morning");
+        System.out.println(resultHunt2);
 
     }
 
