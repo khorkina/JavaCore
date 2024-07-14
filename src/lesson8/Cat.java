@@ -12,7 +12,15 @@ public class Cat {
     }
 
     public void destroySofa(String sofaOwner) {
-        System.out.print(sofaOwner);
+        System.out.printf("Cat is on %s\n", sofaOwner);
+    }
+
+    public String hunt(boolean isDay) {
+        if (isDay) {
+            return "Mouse";
+        }
+        return "Snake";
+
     }
 
     @Override
