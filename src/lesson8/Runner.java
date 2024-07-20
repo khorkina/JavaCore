@@ -14,6 +14,8 @@ public class Runner {
         cat.hunt("Morning");
         System.out.println(resultHunt2);
 
+        cat.fead("Fiah", "Milk");
+
     }
 
 }
