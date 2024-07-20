@@ -1,5 +1,7 @@
 package lesson8;
 
+import java.util.Arrays;
+
 public class Cat {
     String color;
     double weight;
@@ -31,6 +33,10 @@ public class Cat {
             return "Snake";
         }
         return "Nothing";
+    }
+
+    public void fead(String givver, String ...product) {
+        System.out.printf("Person gives %s to cat, Cat eat %s", givver, Arrays.toString(product));
     }
 
     public void hunt(String timesOfDay) {
