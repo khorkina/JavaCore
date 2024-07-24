@@ -1,11 +1,11 @@
-package lesson8;
+package lesson8.cat;
 
 import java.util.Arrays;
 
 public class Cat {
-    String color;
-    double weight;
-    String ownerName;
+    public String color;
+    public double weight;
+    private String ownerName;
 
     public Cat(String colorName, double weightCat, String owner) {
         this.color = colorName;
