@@ -1,9 +1,9 @@
 package lesson8;
 
 public class Dog {
-    String name;
-    int weight;
-    String owner;
+    private String name;
+    private int weight;
+    private String owner;
 
     public Dog(String name, int weight, String owner) {
         if (weight < 1) {
@@ -12,8 +12,19 @@ public class Dog {
             this.weight = weight;
         }
         this.name = name;
-        this.weight = weight;
         this.owner = owner;
+    }
+
+    public String getOwner() {
+        return "Ms." + owner;
+    }
+
+    public void setWeight(int newWeight) {
+        if (newWeight < 1) {
+            this.weight = 5;
+        } else  {
+            this.weight = newWeight;
+        }
     }
 
     @Override
