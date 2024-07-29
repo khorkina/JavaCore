@@ -1,11 +1,19 @@
 package lesson8.cat.zoo;
 
+import lesson8.Dog;
 import lesson8.cat.Cat;
 
 public class Zoo {
-    public static void main(String[] args) {
-        Cat cat = new Cat("Black", 20, "Marina");
-        System.out.println(cat.color);
+    private Cat cat;
+    private Dog dog;
 
+    public Zoo(Dog dog, Cat cat) {
+        this.dog = dog;
+        this.cat = cat;
+    }
+
+    public void feed() {
+        cat.fead("Marina", "Fish");
+        dog.fead("Marina", "Meat");
     }
 }
