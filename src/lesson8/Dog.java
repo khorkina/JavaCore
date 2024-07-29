@@ -1,9 +1,17 @@
 package lesson8;
 
 public class Dog {
-    private String name;
-    private int weight;
-    private String owner;
+    private String name = "Lord";
+    private int weight = 50;
+    private String owner = "Marina";
+
+    {
+        System.out.println("Dog is created");
+    }
+
+    public Dog() {
+
+    }
 
     public Dog(String name, int weight, String owner) {
         if (weight < 1) {
@@ -34,5 +42,7 @@ public class Dog {
                 ", weight=" + weight +
                 ", owner='" + owner + '\'' +
                 '}';
+
     }
+
 }

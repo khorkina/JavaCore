@@ -8,6 +8,10 @@ public class RunnerDog {
         System.out.println(dog);
         System.out.println(dog.getOwner());
 
+        Dog dog1 = new Dog();
+        System.out.println(dog1);
+
+
     }
 
 }
