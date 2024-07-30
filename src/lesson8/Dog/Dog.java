@@ -1,5 +1,7 @@
 package lesson8;
 
+import java.util.Arrays;
+
 public class Dog {
     private String name = "Lord";
     private int weight = 50;
@@ -11,6 +13,10 @@ public class Dog {
 
     public Dog() {
 
+    }
+
+    public void fead(String givver, String ...product) {
+        System.out.printf("Person gives %s to dog, Dog eat %s\n", givver, Arrays.toString(product));
     }
 
     public Dog(String name, int weight, String owner) {
