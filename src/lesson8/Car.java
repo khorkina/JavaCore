@@ -20,5 +20,7 @@ public class Car {
 
     public String getBrandName() {
         return brandName;
+
     }
+
 }
