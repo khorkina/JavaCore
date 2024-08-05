@@ -7,6 +7,8 @@ public class Runner {
         Car bmw = new Car("BMW");
         System.out.println(bmw.getCountCars());
 
+        Car.printModels();
+
     }
 
 }
