@@ -15,4 +15,8 @@ public class Car {
 
     }
 
+    public static void printModels() {
+        System.out.println("Available models of cars: bmw, audi, kia");
+    }
+
 }
