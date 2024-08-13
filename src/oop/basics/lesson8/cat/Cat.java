@@ -36,7 +36,7 @@ public class Cat {
     }
 
     public void fead(String givver, String ...product) {
-        System.out.printf("Person gives %s to cat, Cat eat %s", givver, Arrays.toString(product));
+        System.out.printf("Person gives %s to cat, Cat eat %s\n", givver, Arrays.toString(product));
     }
 
     public void hunt(String timesOfDay) {

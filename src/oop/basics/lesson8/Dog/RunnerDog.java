@@ -1,4 +1,4 @@
-package lesson8;
+package lesson8.Dog;
 
 import lesson8.cat.Cat;
 import lesson8.cat.zoo.Zoo;

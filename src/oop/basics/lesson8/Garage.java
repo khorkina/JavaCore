@@ -23,5 +23,7 @@ public class Garage {
     private void getInfoAboutCar(Car car) {
         System.out.println(car.getBrandName());
         car.investigateSpeed100();
+
     }
+
 }

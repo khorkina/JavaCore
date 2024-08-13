@@ -1,6 +1,6 @@
 package lesson8.cat.zoo;
 
-import lesson8.Dog;
+import lesson8.Dog.Dog;
 import lesson8.cat.Cat;
 
 public class Zoo {
