@@ -1,4 +1,4 @@
-package MethodsComputer;
+package MethodsComputer.Human;
 
 class Human
 {

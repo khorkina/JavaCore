@@ -1,4 +1,6 @@
-package MethodsComputer;
+package MethodsComputer.Human;
+
+import MethodsComputer.Human;
 
 public class HumanDemo {
     public static void main(String[] args) throws ClassNotFoundException
