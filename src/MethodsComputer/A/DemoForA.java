@@ -1,4 +1,4 @@
-package MethodsComputer;
+package MethodsComputer.A;
 
 public class DemoForA {
     public static void main(String[] args)
