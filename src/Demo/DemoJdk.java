@@ -1,10 +1,11 @@
-package DemoJd;
+package Demo;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class DemoJdbc {
+public class DemoJdk {
     public static void main(String[] args) throws Exception {
 
 /*
@@ -19,24 +20,18 @@ close
 
 */
 
-        int sid=101;
-        String sname="Max";
-        int marks=48;
-
         String url = "jdbc:postgresql://localhost:5432/demo";
         String uname = "postgres";
         String pass = "6031";
-
-        String sql = "insert into student values ("+sid+",'"+sname+"',"+marks+")";
+        String sql = "select sname from student where sid=1";
         // Class.forName("org.postgresql.Driver");
         Connection con = DriverManager.getConnection(url, uname, pass);
         System.out.println("Connection established");
         Statement st = con.createStatement();
-        st.execute(sql);
-
-
-
-
+        ResultSet rs = st.executeQuery(sql);
+        rs.next();
+        String name = rs.getString("sname");
+        System.out.println("Name of a student is " + name);
         con.close();
         System.out.println("Connection closed");
 
