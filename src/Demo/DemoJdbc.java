@@ -7,17 +7,6 @@ import java.sql.Statement;
 public class DemoJdbc {
     public static void main(String[] args) throws Exception {
 
-/*
-import package
-load and register
-create connection
-create statement
-execute statement
-process the results
-close
-
-
-*/
 
         int sid=101;
         String sname="Max";
