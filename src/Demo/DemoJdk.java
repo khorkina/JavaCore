@@ -8,17 +8,7 @@ import java.sql.Statement;
 public class DemoJdk {
     public static void main(String[] args) throws Exception {
 
-/*
-import package
-load and register
-create connection
-create statement
-execute statement
-process the results
-close
 
-
-*/
 
         String url = "jdbc:postgresql://localhost:5432/demo";
         String uname = "postgres";
