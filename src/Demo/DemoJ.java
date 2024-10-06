@@ -10,6 +10,7 @@ public class DemoJ {
         {
             j=18/i;
         }
+
         catch(Exception e)
         {
             System.out.println("Something went wrong");
@@ -17,5 +18,7 @@ public class DemoJ {
         System.out.println(j);
 
         System.out.println("Bye");
+
     }
+
 }
